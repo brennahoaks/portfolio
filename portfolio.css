@@ -11,3 +11,14 @@ h2 {
   color: #D93E3A;
 }
 
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}

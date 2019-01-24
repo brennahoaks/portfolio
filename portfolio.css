@@ -16,11 +16,11 @@ section {
 }
 
 aside {
- flex: 1
+ flex: 0
 }
 
 article {
- flex: 4
+ flex: 10
 }
 
 nav.side ul {
@@ -28,6 +28,7 @@ nav.side ul {
   margin: 0;
   padding: 0;
   width: 100px;
+  length: 100%;
   background-color: #f1f1f1;
 }
 
@@ -50,6 +51,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   width: 100%;
+  length: 50px;
   background-color: #333;
 }
 
